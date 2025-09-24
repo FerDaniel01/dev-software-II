@@ -1,0 +1,18 @@
+let nombre: string | number ='Pepito';// inlcuir el tipo de dato
+nombre = 'Prueba'
+
+const edad = 3;
+//edad = 6;
+
+let porcentaje: number| 'ALTO' = 10; // con el simbolo "|" se puede poner mas de un tipo de dato
+porcentaje ='ALTO'
+
+var gustos = '';
+//var gustos = 2; 
+ 
+let prueba = ''; 
+//let prueba ='';
+
+console.log({nombre, edad});
+
+export {};
